@@ -1,0 +1,122 @@
+[
+  {
+    "sn": "6e96141a-8663-43fe-a749-34063383b850",
+    "name": "Awesome Steel Cheese - adidas 長袖上衣",
+    "photo": "t1.jpg",
+    "stock": 80,
+    "price": 5300,
+    "info": "Savor the tangy essence in our Gloves, designed for supportive culinary adventures",
+    "brandId": 2,
+    "categoryId": 6
+  },
+  {
+    "sn": "82b9b0b2-4965-416d-b184-6303dc683b43",
+    "name": "Gorgeous Soft Shirt - Nike 慢跑鞋",
+    "photo": "t2.jpg",
+    "stock": 80,
+    "price": 8700,
+    "info": "Savor the savory essence in our Cheese, designed for aggravating culinary adventures",
+    "brandId": 1,
+    "categoryId": 9
+  },
+  {
+    "sn": "6f5ff4bc-6ec5-4d67-b069-6fa2f972ea1d",
+    "name": "Incredible Rubber Chair - PUMA 短袖上衣",
+    "photo": "t3.jpg",
+    "stock": 40,
+    "price": 5200,
+    "info": "Discover the gorilla-like agility of our Towels, perfect for ambitious users",
+    "brandId": 3,
+    "categoryId": 4
+  },
+  {
+    "sn": "be42ba40-2ad5-43b6-8795-8187f4522eaf",
+    "name": "Incredible Metal Ball - Nike 帽類",
+    "photo": "t4.jpg",
+    "stock": 20,
+    "price": 3400,
+    "info": "Savor the sweet essence in our Tuna, designed for next culinary adventures",
+    "brandId": 1,
+    "categoryId": 12
+  },
+  {
+    "sn": "bc33944c-93e6-4dc8-aae0-776094550652",
+    "name": "Licensed Frozen Chair - adidas 帽類",
+    "photo": "t5.jpg",
+    "stock": 80,
+    "price": 8100,
+    "info": "Discover the eminent new Table with an exciting mix of Concrete ingredients",
+    "brandId": 2,
+    "categoryId": 12
+  },
+  {
+    "sn": "5ccc2438-f61b-48b0-aec9-a3d2d96b6a4b",
+    "name": "Practical Steel Keyboard - Nike 長袖上衣",
+    "photo": "t1.jpg",
+    "stock": 100,
+    "price": 9300,
+    "info": "Our penguin-friendly Salad ensures improbable comfort for your pets",
+    "brandId": 1,
+    "categoryId": 6
+  },
+  {
+    "sn": "31238b5b-7043-467c-9e48-e3b0f010a0d3",
+    "name": "Bespoke Fresh Soap - adidas 慢跑鞋",
+    "photo": "t2.jpg",
+    "stock": 60,
+    "price": 10700,
+    "info": "Introducing the Northern Mariana Islands-inspired Computer, blending indolent style with local craftsmanship",
+    "brandId": 2,
+    "categoryId": 9
+  },
+  {
+    "sn": "d841a14a-9e7b-4557-9f4d-1fd36c8b7f13",
+    "name": "Rustic Granite Computer - adidas 帽類",
+    "photo": "t3.jpg",
+    "stock": 90,
+    "price": 7400,
+    "info": "馬 and Sons's most advanced Hat technology increases cute capabilities",
+    "brandId": 2,
+    "categoryId": 12
+  },
+  {
+    "sn": "05cdee5b-4e77-439f-8a86-0ecce2719b0c",
+    "name": "Luxurious Wooden Car - PUMA 籃球鞋",
+    "photo": "t4.jpg",
+    "stock": 80,
+    "price": 14800,
+    "info": "The 黑色 Chicken combines Jordan aesthetics with Lithium-based durability",
+    "brandId": 3,
+    "categoryId": 10
+  },
+  {
+    "sn": "7dc7af31-3497-4d21-bc38-ebc2f9755a48",
+    "name": "Intelligent Soft Gloves - New Balance 包款",
+    "photo": "t5.jpg",
+    "stock": 70,
+    "price": 8900,
+    "info": "Our rich-inspired Computer brings a taste of luxury to your uneven lifestyle",
+    "brandId": 4,
+    "categoryId": 11
+  },
+  {
+    "sn": "da6133ca-dd72-46eb-9bdc-e688a5050abf",
+    "name": "Tasty Metal Chair - PUMA 帽類",
+    "photo": "t1.jpg",
+    "stock": 80,
+    "price": 12100,
+    "info": "New 青綠色 Salad with ergonomic design for meaty comfort",
+    "brandId": 3,
+    "categoryId": 12
+  },
+  {
+    "sn": "5301c325-282b-4b5d-8602-b828eb780d3c",
+    "name": "Electronic Fresh Ball - New Balance 包款",
+    "photo": "t2.jpg",
+    "stock": 100,
+    "price": 8100,
+    "info": "Our golden-inspired Hat brings a taste of luxury to your needy lifestyle",
+    "brandId": 4,
+    "categoryId": 11
+  }
+]
