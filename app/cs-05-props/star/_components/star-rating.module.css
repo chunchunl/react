@@ -1,16 +1,18 @@
 .on {
-  color: gold;
+  /* 2.套用屬性值的CSS變數 */
+  color: var(--fill-color);
 }
 
 .off {
-  color: gray;
+  /* 2.套用屬性值的CSS變數 */
+  color: var(--empty-color);
 }
 
-.goodStyle{
-  color:red;
+.goodStyle {
+  color: red;
 }
 
-.starBtn{
+.starBtn {
   background-color: transparent;
   border: none;
   outline: none;
