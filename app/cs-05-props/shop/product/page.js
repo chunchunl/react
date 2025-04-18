@@ -4,6 +4,9 @@ import Link from 'next/link'
 // 購物車勾子
 import { useCart } from '@/hooks/use-cart'
 
+// 吐司訊息用元件
+import { ToastContainer, toast } from 'react-toastify'
+
 const initialProducts = [
   {
     id: 0,
@@ -37,7 +40,10 @@ export default function ProductPage() {
               {product.name} (NT${product.price})
               <button
                 onClick={() => {
+                  // 加入購物車狀態(context)
                   onAdd(product)
+                  // 吐司訊息: 跳出成功訊息
+                  toast.success(`"${product.name}"已成功加入購物車`)
                 }}
               >
                 加入購物車
@@ -46,6 +52,8 @@ export default function ProductPage() {
           )
         })}
       </ul>
+      {/* 吐司訊息用元件 */}
+      <ToastContainer />
     </>
   )
 }
