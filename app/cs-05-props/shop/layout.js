@@ -1,11 +1,10 @@
-import Providers from '/providers'
+import Menubar from './_components/menubar'
 
-export default function RootLayout({ children }) {
+export default function ShopLayout({ children }) {
   return (
-    <html lang="en">
-      <body>
-          <Providers>{children}</Providers>
-        </body>
-      </html>
-    )
-  }
+    <>
+      <Menubar />
+      {children}
+    </>
+  )
+}

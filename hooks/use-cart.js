@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from 'react'
+import { createContext, useContext, useState, useEffect } from 'react'
 
 // context套用第1步: 建立context
 // createContext的傳入參數defaultValue也有備援值(context套用失敗或錯誤出現的值)
@@ -30,6 +30,8 @@ CartContext.displayName = 'CartContext'
 export function CartProvider({ children }) {
   // 購物車中的項目 與商品的物件屬性會相差一個count屬性(數字類型，代表購買數量)
   const [items, setItems] = useState([])
+  // 代表是否完成第一次渲染呈現的布林狀態值(信號值)
+  const [didMount, setDidMount] = useState(false)
 
   // 處理遞增
   const onIncrease = (itemId) => {
@@ -93,6 +95,26 @@ export function CartProvider({ children }) {
   // 稱為"衍生,派生"狀態(derived state)，意即是狀態的一部份，或是由狀態計算得來的值
   const totalQty = items.reduce((acc, v) => acc + v.count, 0)
   const totalAmount = items.reduce((acc, v) => acc + v.count * v.price, 0)
+
+  // 第一次渲染完成後，從localStorage取出儲存購物車資料進行同步化
+  useEffect(() => {
+    // 讀取localStorage資料(key為cart)，如果不存在會使用空陣列([])
+    const storedItems = JSON.parse(localStorage.getItem('cart')) || []
+    // 設定到購物車狀態中 localStroage (key=cart) ===> items
+    setItems(storedItems)
+    // 第一次渲染已完成
+    setDidMount(true)
+  }, [])
+
+  // 當狀態items有更動時，要進行和loalStorage寫入的同步化
+  useEffect(() => {
+    // 排除第一次的渲染同步化工作
+    if (didMount) {
+      // items ===>  localStroage (key=cart)
+      localStorage.setItem('cart', JSON.stringify(items))
+    }
+    // eslint-disable-next-line
+  }, [items])
 
   return (
     <>

@@ -1,6 +1,5 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
 import styles from './menubar.module.css'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
@@ -18,9 +17,7 @@ export default function Menubar() {
           <li className={pathname.includes('/product') ? styles.active : ''}>
             <Link href="./product">商品頁</Link>
           </li>
-          <li
-            className={pathname.includes('/cart') ? styles.active : ''}
-          >
+          <li className={pathname.includes('/cart') ? styles.active : ''}>
             <Link href="./cart">購物車頁</Link>
           </li>
         </ul>
